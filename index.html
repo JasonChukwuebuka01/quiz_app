@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ouiz App - Jason Chuwuebuka</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!-- start Quiz box -->
+      <section class="start">
+         <h4>Start Quiz</h4>
+      </section>
+      <!-- start Quiz box End -->
+
+      <!-- rule-box start -->
+      <section class="rule-box">
+         <header>
+            <h4>Some Rules Of this Quiz</h4>
+         </header>
+
+         <article class="rules">
+            <p>
+               1. You will only have <span>15 seconds</span> per each question.
+            </p>
+            <p>2. Once you select you answer,you cant re-select.</p>
+            <p>3. You can't select any option once you run out of time.</p>
+            <p>4. You can't exit from the Quiz while youre playing.</p>
+            <p>5. You will get points on the basis of your correct answer.</p>
+         </article>
+
+         <article class="buttons">
+            <button id="exit">Exit Quiz</button>
+            <button id="continue">continue</button>
+         </article>
+      </section>
+
+      <!-- rule-box End -->
+
+      <!-- Quiz start -->
+
+      <section class="quiz-box">
+         <header>
+            <h4>MayIcodes Quiz APP</h4>
+
+            <div>
+               <p class="time-text">Time Left</p>
+               <p id="time">00</p>
+            </div>
+
+            <div id="time-div"></div>
+         </header>
+
+         <article>
+            <section class="question-text"></section>
+            <section class="option-list"></section>
+         </article>
+
+         <footer>
+            <div class="question-counter"></div>
+            <button id="next-question">Next Question</button>
+         </footer>
+      </section>
+
+      <!-- Quiz End-->
+
+      <!-- Congratulation box start -->
+
+      <section class="congrats-box">
+         <article class="i-box"></article>
+
+         <article class="score-board"></article>
+
+         <article id="buttons">
+            <button id="replay">Replay Quiz</button>
+            <button id="exit">Exit Quiz</button>
+         </article>
+      </section>
+
+      <!-- Congratulation box End -->
+
+      <section id="mood-slate"></section>
+
+      <script src="js/main.js"></script>
+      <script src="https://code.responsivevoice.org/responsivevoice.js?key=hVhrg0gf"></script>
+   </body>
+</html>
